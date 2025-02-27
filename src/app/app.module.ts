@@ -12,6 +12,7 @@ import { FavoritesComponent } from './favorites/favorites.component';
 import { SearchComponent } from './search/search.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { SingleMovieComponent } from './single-movie/single-movie.component';
+import { ColorDirective } from './directives/color.directive';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SingleMovieComponent } from './single-movie/single-movie.component';
     FavoritesComponent,
     SearchComponent,
     NotFoundComponent,
-    SingleMovieComponent
+    SingleMovieComponent,
+    ColorDirective
   ],
   imports: [
     BrowserModule,

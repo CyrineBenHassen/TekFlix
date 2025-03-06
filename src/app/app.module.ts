@@ -13,6 +13,7 @@ import { SearchComponent } from './search/search.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { SingleMovieComponent } from './single-movie/single-movie.component';
 import { ColorDirective } from './directives/color.directive';
+import { WishListComponent } from './wish-list/wish-list.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ColorDirective } from './directives/color.directive';
     SearchComponent,
     NotFoundComponent,
     SingleMovieComponent,
-    ColorDirective
+    ColorDirective,
+    WishListComponent
   ],
   imports: [
     BrowserModule,
